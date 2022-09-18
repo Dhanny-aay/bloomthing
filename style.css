@@ -624,6 +624,10 @@
         right: 0px;
         display: block;
         overflow: visible;
+        background-image: url(png1.png);
+        background-size: 35%;
+        background-position: 0% 100%;
+        background-repeat: no-repeat;
         height: 480px;
         margin-bottom: 0px;
         width: 100%;
@@ -657,6 +661,10 @@
         margin-top: 40px;
         margin-bottom: 0px;
         width: 100%;
+        background-image: url(png2.png);
+        background-size: 40%;
+        background-position: 100% 100%;
+        background-repeat: no-repeat;
     }
     .wrapper2{
         display: block;
@@ -685,6 +693,10 @@
         margin-top: 0px;
         margin-bottom: 0px;
         width: 100%;
+        background-image: url(png3.png);
+        background-size: 40%;
+        background-position: 0% 110%;
+        background-repeat: no-repeat;
     }
     .testimonial-img{
         width: 60px;
@@ -725,6 +737,10 @@
         overflow: visible;
         height: 480px;
         margin-bottom: 0px;
+        background-image: url(pngshop.png);
+        background-size: 60%;
+        background-position: 115% 100%;
+        background-repeat: no-repeat;
     }
     .container6{
         margin-bottom: 0px;
