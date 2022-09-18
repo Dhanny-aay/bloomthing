@@ -247,6 +247,27 @@
     letter-spacing: -0.2px;
     text-transform: none;
 }
+.link-arrow {
+    padding: 40px;
+    margin-right: 20px;
+    font-family: 'karla', sans-serif;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 1.25px;
+    font-weight: 300;
+    text-align: right;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.link-arrow img{
+    display: block;
+    height: 30px;
+    margin-top: -7px;
+    margin-right: -30px;
+    float: right;
+}
+
 .gallery{
     padding: 30px;
     /* justify-content: space-around; */
@@ -773,6 +794,10 @@
     
     .container7{
         max-width: none;
+    }
+    .footer-container{
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
     .float-right{
         display: block;
