@@ -594,7 +594,7 @@
     opacity: 1;
     transform: translateY(0px);
 }
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 541px) {
     .nav-menu{
         right: 0px;
         bottom: 0px;
@@ -687,8 +687,8 @@
         top: 130px;
         right: 0px;
         overflow: visible;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: auto !important;
+        margin-right: auto !important;
         float: none;
     }
     .gallery{
@@ -721,8 +721,8 @@
         top: -380px;
         right: 0px;
         overflow: visible;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: auto !important;
+        margin-right: auto !important;
         float: none;
     }
     .container4{
@@ -773,8 +773,8 @@
     }
     .wrapper4{
         top: 100px;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: auto !important;
+        margin-right: auto !important;
         float: none;
     }
     .wrapper5{
@@ -844,5 +844,45 @@
     }
     .name label{
         margin-right: 275px;
+    }
+}
+@media screen and (max-width: 991px){
+    .container1{
+        height: 60vh;
+        background-position: 95% 50%;
+    }
+    .wrapper{
+        margin-right: -70px;
+        margin-left: 0px;
+    }
+    .wrapper1{
+        left: 0px;
+    }
+    .jpg{
+        width: 180px;
+        height: 180px;
+    }
+    .gallery{
+        padding: 85px;
+    }
+    .wrapper2{
+        margin-left: -70px;
+    }
+    .testimony{
+        padding: 20px;
+    }
+    .testimony1{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .wrapper4{
+        margin-left: -70px;
+    }
+    .wrapper6{
+        margin-right: 0px;
+    }
+    .middle{
+        margin-top: -90px;
+        margin-left: 90px;
     }
 }
